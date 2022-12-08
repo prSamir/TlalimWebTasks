@@ -1,0 +1,16 @@
+0. Each button should change the color of 
+   the respective parrot part
+
+1. One listener for them all 
+
+2. 3 modes:
+    first) going in loop over the set of 
+           predefined colors 
+    second) random color
+    third) chosing color from <input type="color">
+
+3. Pay attention that there are two buttons 
+   that should color several parts of the parrot 
+   Tail Wing - "tail-wing" class
+   and 
+   Body - "body-clr" class
