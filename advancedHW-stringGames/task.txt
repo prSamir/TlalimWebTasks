@@ -1,0 +1,32 @@
+   b) Add /* ANAGRAMS */ part which will contain
+
+      - function getting random word for anagram from
+           "anagrams" array and showing it.
+           This function should be triggered
+               when clicking "New Anagram" button.
+
+      - function findAnagrams() finding in the "anagrams" array 
+            all the anagrams of the chosen word
+            and showing them in the "comp-anagram" input
+            (remember the alphabetic sorting trick!!!)
+ 
+      - function checkPlayerAnswer() comparing the anagrams
+            which the player put into "your-anagram" input
+            with the anagrams
+            which were found by the program
+
+      - 2 arrays like
+
+        const praises = ['Well done!',"You're the best!",'תותח','כל הכבוד'];
+	const reprovals = ['Next time will be better',"You're stupid but cute","Don't blame yourself",'היה יכול להיות יותר גרוע'];
+
+      - function showPraiseOrReproval() getting randomly praise from the "praises" array
+           - in the case of player success,
+           or getting randomly reproval from the "reprovals" array
+           - in the case of player failure,
+           and shoing it in the paragraph "anagram-reaction"
+
+      - function checkAnagrams() which calls 
+            findAnagrams(), and checkPlayerAnswer() and showPraiseOrReproval.
+            This function should be triggered
+            by "Check Anagram" button.
